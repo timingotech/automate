@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --accent: #3e5ef0;
+    --accent_hover:#0c1855;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Chivo', sans-serif;
+    /* text-transform: capitalize; */
+    font-weight: 300;
+    transition:.2s;
+    border:none;
+    outline:none;
+    list-style:none;
+    accent-color: #25059b;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s !important;
+}
+
+
+.message{
+    position:fixed;
+    background: var(--accent);
+    color:white;
+    height:40px;
+    width:20%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+    left: 0; 
+    right: 0; 
+    top:0;
+    margin-left: auto; 
+    margin-right: auto; 
+    animation: fade_out 10s;
+    /* z-index:1000000000000000000000000000000000000000000000; */
+    margin-top:50px;
+    opacity:0;
+    z-index:0;
+}
+
+
+@keyframes fade_out {
+    from{
+        opacity:1;
+        z-index:1000000000000000000000000000000000000000000000;
+}
+
+    to{
+        opacity:0;
+        z-index:0;
+    }
+}
+
+
+
+.img_cont{
+    width:100%;
+    /* height:550px; */
+    position:relative;
+    background: url('../images/gettyimages-472812021-640x640.jpg') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.519);
+
+}
+
+.cent{
+   width:1200px;
+   height:100%; 
+   margin:0 auto;
+   padding-top:1px;
+
+}
+
+.cont{
+    width:100%;
+    padding-top:1px;
+    position:relative;
+    /* background: url('../images/FEAT-Mint-07.jpg') right; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+.head_cont{
+    width:100%;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100000000000000000000000;
+    background: #0513527a;
+}
+
+
+.head_cont .cent{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+    /* width:200px; */
+    height:100%;
+    display:flex;
+    align-items: center;
+    margin-right:50px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.links{
+    width:100%;
+    margin-left:80px;
+    height:100%;
+
+}
+
+.links ul{
+    width:100%;
+  
+}
+
+
+
+.go_to li a, .auth li a{
+    color: white;
+    font-size:18px;
+    font-weight:400;
+    text-transform: capitalize;
+}
+
+
+
+.go_to{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go_to li{
+    margin:0 30px;
+}
+
+.auth{
+    /* width:300px; */
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left:50px;
+}
+
+.auth ul, .go_to ul{
+    height:100%;
+    display:flex;
+    align-items: center;
+    padding:1px;
+}
+
+.auth li{
+    margin:0 20px;
+}
+
+button{
+    background: var(--accent);
+    border-radius:12px;
+    color:white;
+    cursor:pointer;
+    padding:15px 25px;
+    display:block;
+}
+
+.auth button{
+    padding: 7px 25px;
+    background: #3e5ef0;
+    font-weight:400;
+    font-size:18px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    box-shadow: var(--shadow);
+}
+
+button:hover{
+    background: var(--accent_hover);
+}
+
+button:disabled{
+    background: #666669;
+    cursor:default;
+}
+
+.logo h1{
+    font-weight:500;
+    color:white;
+    margin:0 12px;
+    font-size:35px;
+}
+
+
+.mini_pill{
+    position:absolute;
+    border-top-left-radius:100px ;
+    border-top-right-radius:100px ;
+    bottom:0;
+    left:349px;
+    padding-top:1px;
+    background: #000;
+    width:1200px;
+    height:320px;
+    z-index:10000
+}
+
+
+
+.automated{
+    width:1090px;
+    margin:80px auto;
+    text-align: center;
+}
+
+.automated h1{
+    text-align: center;
+    font-size:38px;
+    font-weight:600;
+    color:#e0e3f5;
+}
+
+.automated h4{
+    text-align: center;
+    font-size:29px;
+    font-weight:300;
+    color:#e0e3f5;
+    margin:15px auto;
+}
+
+.automated button{
+    margin:15px auto;
+    padding:20px 36px;
+    border-radius: 100px;
+    background: #3e3e3e;
+    font-size:30px;
+    font-weight:600;
+    display:inline-block;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}

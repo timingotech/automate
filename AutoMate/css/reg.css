@@ -1,0 +1,72 @@
+.cont1{
+    height:1000px;
+    position:relative;
+    width:100%;
+    /* height:550px; */
+    position:relative;
+    background: url('../images/fortune-vieyra-w1llpnz8chc-unsplash-scaled-1.jpg') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+.form_cont{
+    margin-top:300px;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.form_cont h1{
+    text-align:left;
+    color:white;
+    font-size:30px;
+    font-weight:500;
+}
+
+.input_field{
+    margin-top:35px;
+}
+
+.input_field input{
+    border:none;
+    outline:none;
+    border-bottom:3px solid #4d8397;
+    padding:18px 0;
+    font-size:20px;
+    color: white;
+    margin:26px 0;
+    width:100%;
+    background: transparent;
+    display:block;
+}
+
+input::placeholder{
+    color:rgba(255, 255, 255, 0.784);
+}
+
+
+
+.form_cont button{
+    padding: 25px 80px;
+    font-weight:500;
+    font-size:22px;
+    color:white;
+    background: #3e5ef0;
+    display:inline-block;
+    margin:30px 0;
+}
+
+.re_do{
+    margin:0 auto;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.re_do a{
+    color:white;
+    font-weight:400;
+    font-size:18px;
+}

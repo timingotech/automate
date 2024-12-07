@@ -1,0 +1,300 @@
+.sec1{
+    height:300px;
+    animation: fade_in .8s;
+    margin-top:200px;
+    background: white;
+}
+
+
+.cont{
+    margin-top:100px;
+}
+
+.sec1 .cent{
+    display:flex;
+}
+
+.what, .mis{
+    width:600px;
+    height:100%;
+}
+
+.what h1{
+    text-align: left;
+    font-size:26px;
+}
+
+
+.hero{
+    min-height:747px;
+    width:100%;
+    background: white;
+    padding-bottom:60px;
+    margin-top:139px;
+    margin-bottom: 400px;
+  }
+
+
+
+.rect{
+    width:500px;
+    height:100px;
+    margin: 20px auto;
+    border:1px solid rgba(0, 0, 0, 0.16);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+}
+
+.rect h1{
+    width:280px;
+    font-size:15px;
+    text-align: left;
+}
+
+.rect i{
+    font-size:16px;
+    color:var(--accent_hover);
+}
+
+.what{
+    padding:16px;
+}
+
+.what p{
+    text-align: left;
+    width:100%;
+    line-height: 24px;
+    font-weight: 100;
+    font-size:14px;
+    margin:24px 0;
+}
+
+.what ul{
+    display:block;
+    float:right;
+    width: 500px;
+    height:100px;
+}
+
+.what ul li{
+    list-style-type: disc;
+    font-weight:100;
+    font-size:14px;
+    margin:20px 0;
+    text-align: left;
+}
+
+
+.sec2{
+    height:250px;
+    background: white;
+}
+
+.sec2 .cent{
+    display:flex;
+    align-items: center;
+}
+
+
+.skill_card{
+    width:300px;
+    height:90px;
+    margin:10px 25px;
+}
+
+.skill_card h1{
+    color:var(--accent_hover);
+    font-size:33px;
+}
+
+.skill_card h4{
+    text-align: center;
+    margin:16px;
+    font-weight:600;
+}
+
+
+.sec3{
+    height:500px;
+    background: white;
+}
+
+.sec3 .cent{
+    display:flex;   
+}
+
+
+.our_goal, .goal_img{
+    width:600px;
+    height:100%;
+}
+
+.our_goal{
+    padding:80px 50px 0 8px;
+}
+
+.our_goal h1{
+    text-align: left;
+    font-weight:26px;
+    margin:36px 0;
+}
+
+
+.our_goal p{
+    text-align: left;
+    line-height: 24px;
+    width:480px;
+    margin:36px 0;
+    font-weight:100;
+    font-size:14px;
+}
+
+
+.goal_img{
+    padding-top:1px;
+}
+
+.img_box{
+    width:580px;
+    height:400px;
+    margin:70px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    position:relative;
+    background: url('../images/steptodown.com949802.jpg') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+
+.sec4{
+    height:300px;
+    background: white;
+
+}
+
+.sec4 .cent{
+    display:flex;
+}
+
+
+
+
+.why, .fluid_data{
+    width:600px;
+    height:100%;
+}
+
+.why{
+    padding: 0 48px 0 12px;
+}
+
+.sec4 h1{
+    text-align: left;
+}
+
+.why_choose{
+    text-align: left;
+    height:auto;
+    padding: 2px 10px 2px 0;
+    line-height:28px;
+    font-weight:100;
+    font-size:16px;
+    margin:45px 0;
+}
+
+
+.data_box{
+    float: right;
+    width:530px;
+    height:250px;
+    margin:20px 0;
+}
+
+.data{
+    width:100%;
+    height:35px;
+    margin:68px 0;
+}
+
+.data h4{
+    text-align: left;
+    font-weight:600;
+}
+
+.data_1{
+    margin:0;
+}
+
+.fluid_cont{
+    width: 100%;
+    height:8px;
+    margin:8px 0;
+    background: #e5e5e5;
+}
+
+
+.fluid{
+    width:70%;
+    height:100%;
+    background: var(--accent);
+}
+
+.skill_card h1{
+    text-align: center;
+}
+
+.sec5{
+    height:400px;
+    /* margin-bottom:400px; */
+    background: white;
+}
+
+
+.img_box{
+    background: url('../images/261c2dd80d70b089418540fc01755148.jpg') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    position:relative;
+}
+
+.sec5 .cent{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.sec5 .card{
+    width:350px;
+    height:140px;
+    margin:18px 25px;
+    padding-left:25px;
+    position:relative;
+}
+
+.card h4{
+    font-weight:600;
+    text-align: left;
+}
+
+.card p{
+    width:325px;
+    text-align: left;
+    margin:25px 0;
+    font-size:14px;
+    line-height: 24px;
+}
+
+.card i{
+    position:absolute;
+    color:var(--accent);
+    font-size:35px;
+    top:-9px;
+    left:-30px;
+}
